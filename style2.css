@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.circle2{
+    top: 0;
+    left: 0;
+    width: 490px;
+    position: absolute;
+    z-index: -3;
+}
+
+.bg{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -4;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.nav2 a:hover {
+    color: white;
+}
+
+.nav2{
+    margin: 0;
+    left: 0;
+    padding-left: 5px;
+    top: 125px;
+    position: absolute;
+    list-style-type: none;
+    font-size: 25px;
+}
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 80px;
+}
+
+.header{
+    position: absolute;
+    top: 250px;
+    left: 850px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.slogan{
+    position: absolute;
+    top: 350px;
+    left: 850px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+
+.maldives{
+    position: absolute;
+    top: 900px;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    
+}
+
+.bali{
+    position: absolute;
+    top: 1780px;
+    width: 100%;  
+    backdrop-filter: blur(10px); 
+    
+}
+
+.maldives img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.maldives h2{
+    margin-top: 15px;
+    font-size: 28px;
+}
+
+.maldives p{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.bali img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.bali h2{
+    margin-top: 15px;
+    font-size: 28px;
+}
+
+.bali p{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+
+
+.beach1{
+    top: 400px;
+    left: 150px;
+}
+
+.beach2{
+    top: 400px;
+    right: 150px;
+}
+
+

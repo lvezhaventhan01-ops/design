@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.nav5 a:hover {
+    color: white;
+}
+.bg{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -3;
+}
+
+.circle5{
+    top: 0;
+    left: 0;
+    width: 490px;
+    position: absolute;
+    z-index: -1;
+}
+
+.nav5{
+    margin: 0;
+    left: 0;
+    padding-left: 5px;
+    top: 125px;
+    position: absolute;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 80px;
+}
+
+.header{
+    position: absolute;
+    top: 250px;
+    left: 850px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.travel{
+    position: absolute;
+    top: 750px;
+    left: 220px;
+    width: 75%;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+
+}
+
+
+.travel td{
+    padding: 20px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.travel img{
+    width: 180px;
+    height: 120px;
+    border-radius: 10px;
+}
+
